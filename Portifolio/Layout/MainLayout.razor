@@ -1,1 +1,53 @@
-﻿
+﻿@inherits LayoutComponentBase
+
+<div class="layout">
+
+    <button class="menu-toggle" @onclick="ToggleMenu">
+        ☰
+    </button>
+
+    @if (menuOpen)
+    {
+        <div class="overlay" @onclick="ToggleMenu"></div>
+    }
+
+    <aside class="sidebar @(menuOpen ? "open" : "")">
+
+        <div class="profile">
+            <img src="imagens/foto.png" alt="Perfil" />
+            <h2>Daliene Roque</h2>
+        </div>
+
+        <nav class="menu">
+            <a href="#inicio" @onclick="CloseMenu">Início</a>
+            <a href="#sobre" @onclick="CloseMenu">Sobre</a>
+            <a href="#experiencia" @onclick="CloseMenu">Experiência</a>
+            <a href="#projetos" @onclick="CloseMenu">Projetos</a>
+            <a href="#conhecimentos" @onclick="CloseMenu">Conhecimentos</a>
+            <a href="#contato" @onclick="CloseMenu">Contato</a>
+        </nav>
+
+        <div class="social">
+            <a href="https://github.com/dalieneroque" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/daliene-nonato-lima-roque-a5b167269/" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+        </div>
+
+    </aside>
+
+    <main class="main-content">
+        @Body
+    </main>
+
+</div>
+
+@code {
+    bool menuOpen = false;
+
+    void ToggleMenu() => menuOpen = !menuOpen;
+
+    void CloseMenu() => menuOpen = false;
+}
