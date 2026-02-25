@@ -892,7 +892,30 @@ section {
     }
 
 
+/* ===============================
+   SCROLLBAR PERSONALIZADA
+================================ */
 
+/* largura da barra */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* fundo da barra */
+::-webkit-scrollbar-track {
+    background: #0f172a; /* seu bg */
+}
+
+/* parte que se move */
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #7c3aed, #a855f7);
+    border-radius: 10px;
+}
+
+    /* efeito ao passar o mouse */
+    ::-webkit-scrollbar-thumb:hover {
+        background: linear-gradient(180deg, #a855f7, #c084fc);
+    }
 
 
 
