@@ -75,15 +75,21 @@ dotnet run
 <h2>🌐 Deploy</h2>
 
 <p>
-Por ser uma aplicação <strong>Blazor WebAssembly</strong>, o projeto pode ser publicado como aplicação estática em:
+Por ser uma aplicação <strong>Blazor WebAssembly</strong>, o projeto foi publicado como aplicação estática no:
 </p>
 
 <ul>
-  <li>GitHub Pages</li>
-  <li>Azure Static Web Apps</li>
-  <li>Vercel</li>
-  <li>Netlify</li>
+  <li>
+    <strong>GitHub Pages</strong> — 
+    <a href="https://dalieneroque.github.io/Portifolio/" target="_blank">
+      Acessar Portfólio Online
+    </a>
+  </li>
 </ul>
+
+<p>
+O deploy foi realizado utilizando <strong>GitHub Actions</strong>, automatizando o processo de build e publicação a cada atualização na branch principal.
+</p>
 
 <hr/>
 
