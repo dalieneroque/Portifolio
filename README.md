@@ -1,4 +1,4 @@
-<h1 align="center">💜 Portfólio Pessoal – Blazor WebAssembly</h1>
+<h1 align="center">💜 Portfólio Pessoal 💜</h1>
 
 <p align="center">
 Desenvolvido com <strong>Blazor WebAssembly</strong> como parte da minha evolução contínua no ecossistema .NET.
@@ -37,11 +37,6 @@ buscando uma visão mais completa da aplicação.
   <li>Bootstrap</li>
 </ul>
 
-<h3>🔹 Banco de Dados</h3>
-<ul>
-  <li>SQL Server</li>
-</ul>
-
 <h3>🔹 Ferramentas</h3>
 <ul>
   <li>Git</li>
@@ -59,16 +54,6 @@ buscando uma visão mais completa da aplicação.
   <li>Construir uma identidade profissional online</li>
   <li>Demonstrar evolução técnica na área de desenvolvimento</li>
 </ul>
-
-<hr/>
-
-<h2>💻 Como Executar o Projeto</h2>
-
-<pre>
-git clone https://github.com/seu-usuario/seu-repositorio.git
-cd seu-repositorio
-dotnet run
-</pre>
 
 <hr/>
 
@@ -99,6 +84,13 @@ O deploy foi realizado utilizando <strong>GitHub Actions</strong>, automatizando
 <strong>Daliene Nonato Lima Roque</strong><br/>
 Desenvolvedora com foco em Backend .NET, sempre buscando evolução contínua e boas práticas de desenvolvimento.
 </p>
+
+Contatos
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?&logoColor=white)](https://www.linkedin.com/in/daliene-roque-a5b167269/)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?&logoColor=white)](https://github.com/DalieneRoque)
+[![Discord](https://img.shields.io/badge/Discord-7289DA?&logoColor=white)](https://discord.gg/5EsYDnNDky)
+[![Youtube](https://img.shields.io/badge/YouTube-FF0000?&logoColor=white)](https://www.youtube.com/channel/UCzS1CS4ll7-4kWyIwYVhz9w)
 
 <p align="center">
 💜 <em>Aprendizado contínuo e construção com propósito.</em>
